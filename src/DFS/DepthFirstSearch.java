@@ -44,6 +44,7 @@ public class DepthFirstSearch {
         node.children.get(0).children.get(1).addChild("9").addChild("10");
         node.children.get(2).children.get(0).addChild("11");
         node.addChild("12");
+        // node
         System.out.println(node.depthFirstSearch(list));
     }
 
