@@ -20,6 +20,8 @@ Output:
 
 public class FindAllDuplicateArray {
     // O(n) time | O(1) space
+    // using list of array some ppl
+    // might said it's O(n) space
     public static List<Integer> findDuplicates(int[] nums) {
         List<Integer> list = new ArrayList<>();
         for(int i = 0; i < nums.length; i++) {

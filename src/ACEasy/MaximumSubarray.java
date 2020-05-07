@@ -20,7 +20,7 @@ public class MaximumSubarray {
         for(int i = 1; i < nums.length; i++) {
             prevSeen = prevSeen > 0 ? prevSeen + nums[i] : nums[i];
             bestSeen = Math.max(prevSeen, bestSeen);
-            
+
         }
 
         return bestSeen;
